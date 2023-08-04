@@ -1,0 +1,25 @@
+.note-container{
+    height: 100%;  
+
+
+}
+.note-container h2 {
+
+    justify-content: center;
+    text-align: center;
+    font-size: 41px;
+}
+
+.note-container-notes {
+    height: 90%;
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    /* overflow-y: scroll; */
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    /* padding: 40px; */
+    /* background-color: aqua; */
+    margin-left: 106px;
+}

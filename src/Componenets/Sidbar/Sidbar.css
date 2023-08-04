@@ -1,0 +1,34 @@
+.Sidbar img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin: 1px 15px;
+    padding-left: 38px;
+}
+
+
+.Sidbar{
+    width: 7%;
+}
+
+.sidbar-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 0;
+    transition: 300ms;
+}
+
+.sidbar-list_active{
+    height: 300px;
+}
+
+
+
+.sidbar-list-item{
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    list-style: none;
+}     
